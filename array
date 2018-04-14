@@ -1,0 +1,13 @@
+This is NOT working
+$stripe = array(
+  "secret_key"      => "<?php echo $settings->secret_api;?>",
+  "publishable_key" => "<?php echo $settings->publishable_api;?>"
+);
+
+
+This is working
+
+$stripe = array(
+  "secret_key"      => "sk_test_anVBqFXUs6571YJivnAtjrVh",
+  "publishable_key" => "pk_test_HuTBF9bYsi4NhVD6vrEYhSoC"
+);
